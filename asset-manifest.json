@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ESARA/static/css/main.f0f8f084.css",
+    "main.js": "/ESARA/static/js/main.a6353d3c.js",
+    "static/js/787.dcc73137.chunk.js": "/ESARA/static/js/787.dcc73137.chunk.js",
+    "static/media/slick.svg": "/ESARA/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ESARA/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ESARA/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ESARA/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ESARA/index.html",
+    "main.f0f8f084.css.map": "/ESARA/static/css/main.f0f8f084.css.map",
+    "main.a6353d3c.js.map": "/ESARA/static/js/main.a6353d3c.js.map",
+    "787.dcc73137.chunk.js.map": "/ESARA/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0f8f084.css",
+    "static/js/main.a6353d3c.js"
+  ]
+}
