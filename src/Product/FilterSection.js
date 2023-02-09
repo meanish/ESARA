@@ -93,9 +93,9 @@ const FilterSection = () => {
               className="filter-company-select"
             >
               {
-                companyOnlyValue.map((currEle) => {
+                companyOnlyValue.map((currEle,index) => {
                   return (
-                    <option value={currEle} className="company-option" name="company">{currEle}</option>
+                    <option value={currEle} className="company-option" key={index} name="company">{currEle}</option>
                   )
                 })
               }

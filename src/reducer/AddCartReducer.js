@@ -1,4 +1,4 @@
-const AddCartReducer = (state, action) => {
+    const AddCartReducer = (state, action) => {
 
     switch (action.type) {
         case "Add_Cart": {

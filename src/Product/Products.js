@@ -16,12 +16,12 @@ const Products = () => {
         (id !== "all") ? (
           <div className="slider_image">
             {
-              SliderData.map((currEle) => {
+              SliderData.map((currEle, index) => {
                 const { name, img, bgcolor, id: alias } = currEle;
                 if (alias === id) {
                   return (
-                    <div className="slider_img" style={{ backgroundColor: `${bgcolor}` }}>
-                      <img src={`../.${img}`} alt={name} />
+                    <div className="slider_img" key={index} style={{ backgroundColor: `${bgcolor}` }}>
+                      <img src={img} alt={name} />
                     </div>
                   )
                 }

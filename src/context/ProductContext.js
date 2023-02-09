@@ -23,7 +23,6 @@ const Api = "https://api.pujakaitem.com/api/products";
 const AppProvider = ({ children }) => {
 
     const [state, dispatch] = useReducer(reducer, initialState)
-    console.log("Call to check ", state)
     useEffect(() => {
         const FetchApi = async (url) => {
             dispatch({ type: "Set-Loading" })

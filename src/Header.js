@@ -9,8 +9,8 @@ const Header = () => {
 
         <StyleHeader>
             <div className="container nav">
-                <NavLink to="/esara"><Logo src="./images/logo.png" alt="" /></NavLink>
-                <Nav/>
+                <NavLink to="/esara"><Logo src={require("./images/logo.png")} alt="" /></NavLink>
+                <Nav />
             </div>
         </StyleHeader>
 
